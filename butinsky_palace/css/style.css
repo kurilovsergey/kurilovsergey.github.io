@@ -1,0 +1,434 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,700,400italic,700italic&subset=latin,cyrillic);
+
+body{
+  margin: auto;
+  font-family: 'Playfair Display', serif;
+  background-color: #d5c8aa;
+  height: 2080px;
+}
+.navbar{
+	background-color: #d5c8aa;
+	height: 90px;
+	opacity: 0.93;
+}
+
+#titlemenu{
+	padding-top: 15px;
+	float: left;
+	padding-left: 10px;
+}
+
+#logotype img{
+	height: 90px;
+	width: 100px;
+	float: left;
+	margin-left: 10px;
+}
+
+.name{
+	font-size: 25px;
+	width: 600px;
+	margin-left: 10px;
+}
+
+.name{
+	
+}
+
+.head a{
+	text-decoration: none;
+	color:black;
+	font-size: 16px;
+}
+
+a span{
+	font-size: 24px;
+}
+
+#phone{
+	float: right;
+	 display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#number{
+ float: right;
+}
+
+
+#phone img{
+	width: 20px;
+	height: 20px;
+	float:left;
+	margin-top: 13px;
+}
+
+
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 2fr 3fr 1fr;
+	width: 500px;
+	grid-gap: 12px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+
+}
+
+#menu a{
+		white-space: nowrap;
+}
+
+#menu a:hover{
+	font-weight:bold;
+}
+
+.headimage{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#imag{
+   background-image: url(img/1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.title{
+	padding-top: 150px;
+
+  font-size: 26px;
+  text-align: center;
+  height: 850px;
+
+}
+
+.title h1{
+ font-size: 50px;
+  text-transform: uppercase;
+  background: #2E2F45;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+button{
+  text-transform: uppercase;
+  background: #2E2F45;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+.d2 span {
+  background: white;
+  padding: 0 20px;
+  font-size: 20px;
+}
+}
+
+.about{
+  height: 500px;
+  background-color: #d5c8aa;
+}
+
+.info{
+	background-color: #d5c8aa;
+	height: 800px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.polaroidone {
+ position: relative;
+ width: 220px;
+ transform: rotate(15deg);
+ padding-left: 30px;
+}
+ 
+.polaroidone img {
+ border: 10px solid #fff;
+ border-bottom: 45px solid #fff;
+ -webkit-box-shadow: 3px 3px 3px #777;
+ -moz-box-shadow: 3px 3px 3px #777;
+ box-shadow: 3px 3px 3px #777;
+ width: 500px;
+ height: 300px
+}
+ 
+.polaroidone p {
+ position: absolute;
+ text-align: center;
+ width: 100%;
+ bottom: 0px;
+ font: 400 18px/1 'Playfair Display', cursive;
+ color: #888;
+ width: 300px;
+}
+ 
+.polaroidtwo {
+ position: relative;
+ width: 220px;
+ transform: rotate(-5deg);
+ padding-left: 30px;
+}
+ 
+.polaroidtwo img {
+ border: 10px solid #fff;
+ border-bottom: 45px solid #fff;
+ -webkit-box-shadow: 3px 3px 3px #777;
+ -moz-box-shadow: 3px 3px 3px #777;
+ box-shadow: 3px 3px 3px #777;
+ width: 500px;
+ height: 300px
+}
+ 
+.polaroidtwo p {
+ position: absolute;
+ text-align: center;
+ width: 100%;
+ bottom: 0px;
+ font: 400 18px/1 'Playfair Display', cursive;
+ color: #888;
+ width: 300px;
+}
+
+#history{
+	float:right;
+	margin-right: 50px;
+	margin-top: 100px;
+}
+
+#founder{
+	margin-top: 30px;
+	width: 600px;
+	height: 200px;
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-gap: 20px;
+}
+
+#avatar img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 0px solid;
+	-webkit-box-shadow: 3px 3px 3px #777;
+}
+
+{
+	width: 300px;
+	background-color: red;
+}
+
+#aboutfounder div{
+	margin-top: 50px;
+}
+
+
+#aboutpalace{
+	width: 100px;
+	line-height: 2;
+    margin-right: 50px;
+}
+
+.histore span{
+	font-size: 19px;
+}
+
+#topexhibit{
+	background-color: #d5c8aa; 
+}
+
+#topexhibit h2{
+	text-align: center;
+	margin-top: 0px; 
+}
+
+#exhibit{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #d5c8aa;
+  margin-left: 20px;	
+}
+
+
+
+.piece{
+height: 500px;
+width: 400px;
+}
+
+.piece img{
+	margin-left: 50px;
+}
+
+
+
+.piece:hover{
+background-color: red;
+height: 500px;
+background-color: #cfb63e;
+}
+
+.polar {
+ position: relative;
+ width: 100px;
+ padding-left: 30px;
+}
+ 
+.polar img {
+ border: 10px solid #fff;
+ border-bottom: 20px solid #fff;
+ -webkit-box-shadow: 3px 3px 3px #777;
+ -moz-box-shadow: 3px 3px 3px #777;
+ box-shadow: 3px 3px 3px #777;
+ width: 200px;
+ height: 300px;
+}
+ 
+.piece p{
+	font-size: 20px;
+}
+
+.polar p {
+ position: absolute;
+ text-align: center;
+ width: 100%;
+ bottom: 0px;
+ font: 400 18px/1 'Playfair Display', cursive;
+ color: #888;
+ width: 300px;
+}
+
+.infopiece{
+	font-size: 15px;
+}
+
+#exhibition{
+ border: 15px solid #fff;
+ border-bottom: 10px solid #fff;
+ -webkit-box-shadow: 3px 3px 3px #777;
+ -moz-box-shadow: 3px 3px 3px #777;
+ box-shadow: 3px 3px 3px #777;
+ background-color: #d5c8aa;
+ height: 300px;
+ margin-top: 0px;
+ background-image: url(img/6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  -webkit-filter: grayscale(0%);
+  color:white;
+}
+
+#exhibition:hover {
+-webkit-filter: grayscale(50%);
+}
+
+#footer{
+	background-color: black;
+	height: 150px;
+	margin-top: 0px;
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr 1fr 0.5fr;
+	color: white;
+	padding-top: 15px;
+
+}
+
+#footer a{
+		text-decoration: none;
+		color: #888888;
+}
+
+#footer a:hover{
+		text-decoration: none;
+		color: white;
+}
+
+#mirror{
+	margin-left: 10px;
+}
+
+
+
+#map{
+	height: 300px;
+}
+
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 2fr 3fr 1fr;
+	width: 500px;
+	grid-gap: 12px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+
+}
+
+#menu a{
+		white-space: nowrap;
+}
+
+#menu a:hover{
+	font-weight:bold;
+}
+
+#menufooter div{
+	margin-bottom: 7px;
+	margin-left: 25px;
+}
+
+#informationfooter div{
+	margin-bottom: 7px;
+}
+
+#location div{
+	margin-bottom: 4px;
+}
+
+
+
+.her-btn-minkult{
+	width: 300px;
+}
+
+.her-minkulp-icon{
+	float: left;
+}
+
+.her-minkulp-text{
+	float: left;
+	margin-left: 10px;
+}
+
+
+.her-minkulp-text a{
+	font: 75%/1.5;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+#socialnetwork{
+	margin-top: 10px;
+	margin-left: 120px;
+}
+
+#socialnetwork a:hover{
+	filter: blur(1px);
+
+}
+
